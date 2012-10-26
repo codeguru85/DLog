@@ -1,6 +1,6 @@
 # DLog
 
-DLog is a simple macro that expands to `NSLog` when `DLOG` flag is set, or does nothing if not.
+DLog is a simple macro that expands to `NSLog` when `DEBUG` flag is set, or does nothing if not.
 
 ## Setting up
 
@@ -12,7 +12,7 @@ DLog is a simple macro that expands to `NSLog` when `DLOG` flag is set, or does 
 	  	
    If not, add `DLog.h` manually to your project.
   	
-2. In your project settings, add `DLOG=1` to _Preprocessor Macros_ for the build configurations you want the logging to be active in
+2. In your project settings, add `DEBUG=1` to _Preprocessor Macros_ for the build configurations you want the logging to be active in
 
 3. In your .pch file, add 
 
