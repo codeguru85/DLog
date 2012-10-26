@@ -8,7 +8,7 @@ DLog is a simple macro that expands to `NSLog` when `DLOG` flag is set, or does 
 
 1. If you're using CocoaPods, add
 
-	  	pod 'DLog', :git => 'https://github.com/esad/DLog.git'
+	  	pod 'DLog'
 	  	
    If not, add `DLog.h` manually to your project.
   	
